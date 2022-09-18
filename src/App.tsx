@@ -7,7 +7,6 @@ export function App() {
   return (
     <ThemeProvider theme={defaultTheme}>
       <BrowserRouter>
-        <h1>Pomodoro</h1>
         <Router />
         <GlobalStyle />
       </BrowserRouter>
